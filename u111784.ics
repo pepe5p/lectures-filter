@@ -1,224 +1,20 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//MUCI//NONSGML USOS API 7.1.0.0-5\, 4c4ce094 (2024-10-14)//EN
+PRODID:-//MUCI//NONSGML USOS API 7.1.1.0-1\, 6baf9186 (2024-12-17)//EN
 X-ORIGINAL-URL:https://web.usos.agh.edu.pl/kontroler.php?_action=home/plan
  &
 X-PUBLISHED-TTL:PT12H
 X-WR-CALNAME:Piotr Karaś - plan zajęć USOS
 X-WR-TIMEZONE:Europe/Warsaw
 BEGIN:VEVENT
-SUMMARY:W - Agent Systems
-DTSTART;VALUE=DATE-TIME:20250303T081500
-DTEND;VALUE=DATE-TIME:20250303T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859180@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
- p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CWL - Statistics for Intelligent Systems
-DTSTART;VALUE=DATE-TIME:20250303T113000
-DTEND;VALUE=DATE-TIME:20250303T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859208@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
- ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:W - Formal methods
-DTSTART;VALUE=DATE-TIME:20250303T150000
-DTEND;VALUE=DATE-TIME:20250303T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859236@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
- ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
-LOCATION:ul. Czarnowiejska 66\, 30-054 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CWP - Development Workshop 1
-DTSTART;VALUE=DATE-TIME:20250303T164500
-DTEND;VALUE=DATE-TIME:20250303T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859250@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
- ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CWP - Agent Systems
-DTSTART;VALUE=DATE-TIME:20250304T080000
-DTEND;VALUE=DATE-TIME:20250304T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859264@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
- p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CWL - Modelling of Physical Systems
-DTSTART;VALUE=DATE-TIME:20250304T164500
-DTEND;VALUE=DATE-TIME:20250304T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859278@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
- action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144240\n
-LOCATION:ul. Reymonta 19\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:W - Modelling of Physical Systems
-DTSTART;VALUE=DATE-TIME:20250305T113000
-DTEND;VALUE=DATE-TIME:20250305T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859321@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 216\nD-11\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
- action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143455\n
-LOCATION:ul. Kawiory 26a\, 30-055 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CWL - Formal methods
-DTSTART;VALUE=DATE-TIME:20250306T094500
-DTEND;VALUE=DATE-TIME:20250306T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859391@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
- ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:W - Knowledge Representation and Knowledge Engineering
-DTSTART;VALUE=DATE-TIME:20250306T113000
-DTEND;VALUE=DATE-TIME:20250306T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859398@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
- ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143466\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
-DTSTART;VALUE=DATE-TIME:20250307T080000
-DTEND;VALUE=DATE-TIME:20250307T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1876142@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
- ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:W - Model Checking
-DTSTART;VALUE=DATE-TIME:20250307T094500
-DTEND;VALUE=DATE-TIME:20250307T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859449@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
- ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ZS - Statistics for Intelligent Systems
-DTSTART;VALUE=DATE-TIME:20250307T113000
-DTEND;VALUE=DATE-TIME:20250307T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859491@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
- ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:W - Agent Systems
-DTSTART;VALUE=DATE-TIME:20250310T081500
-DTEND;VALUE=DATE-TIME:20250310T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859179@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
- p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CWL - Statistics for Intelligent Systems
-DTSTART;VALUE=DATE-TIME:20250310T113000
-DTEND;VALUE=DATE-TIME:20250310T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859207@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
- ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:W - Formal methods
-DTSTART;VALUE=DATE-TIME:20250310T150000
-DTEND;VALUE=DATE-TIME:20250310T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859235@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
- ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
-LOCATION:ul. Czarnowiejska 66\, 30-054 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CWP - Development Workshop 1
-DTSTART;VALUE=DATE-TIME:20250310T164500
-DTEND;VALUE=DATE-TIME:20250310T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859249@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
- ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CWP - Agent Systems
-DTSTART;VALUE=DATE-TIME:20250311T080000
-DTEND;VALUE=DATE-TIME:20250311T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859263@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
- p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CWL - Modelling of Physical Systems
-DTSTART;VALUE=DATE-TIME:20250311T164500
-DTEND;VALUE=DATE-TIME:20250311T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859277@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
- action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144240\n
-LOCATION:ul. Reymonta 19\, 30-059 Kraków\, Polska
+SUMMARY:W - Knowledge Management in Critical Infrastructure
+DTSTART;VALUE=DATE-TIME:20250312T080000
+DTEND;VALUE=DATE-TIME:20250312T093000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520699@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 108a\nC-6\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
+ action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128320\n
+LOCATION:ul. Czarnowiejska 36\, 30-054 Kraków\, Polska
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -226,7 +22,7 @@ BEGIN:VEVENT
 SUMMARY:W - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250312T113000
 DTEND;VALUE=DATE-TIME:20250312T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859320@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nD-11\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143455\n
@@ -238,7 +34,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Formal methods
 DTSTART;VALUE=DATE-TIME:20250313T094500
 DTEND;VALUE=DATE-TIME:20250313T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859390@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
@@ -250,7 +46,7 @@ BEGIN:VEVENT
 SUMMARY:W - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250313T113000
 DTEND;VALUE=DATE-TIME:20250313T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859397@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143466\n
@@ -262,7 +58,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250314T080000
 DTEND;VALUE=DATE-TIME:20250314T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1876141@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
@@ -274,7 +70,7 @@ BEGIN:VEVENT
 SUMMARY:W - Model Checking
 DTSTART;VALUE=DATE-TIME:20250314T094500
 DTEND;VALUE=DATE-TIME:20250314T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859448@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
@@ -286,7 +82,7 @@ BEGIN:VEVENT
 SUMMARY:ZS - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250314T113000
 DTEND;VALUE=DATE-TIME:20250314T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859490@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
@@ -298,7 +94,7 @@ BEGIN:VEVENT
 SUMMARY:W - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250317T081500
 DTEND;VALUE=DATE-TIME:20250317T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859178@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
@@ -310,7 +106,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250317T113000
 DTEND;VALUE=DATE-TIME:20250317T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859206@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
@@ -322,7 +118,7 @@ BEGIN:VEVENT
 SUMMARY:W - Formal methods
 DTSTART;VALUE=DATE-TIME:20250317T150000
 DTEND;VALUE=DATE-TIME:20250317T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859234@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
@@ -334,7 +130,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Development Workshop 1
 DTSTART;VALUE=DATE-TIME:20250317T164500
 DTEND;VALUE=DATE-TIME:20250317T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859248@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
@@ -343,10 +139,21 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:W - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250317T183000
+DTEND;VALUE=DATE-TIME:20250317T200000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1770710@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: online\nonline\n\nhttps://web.usos.agh.edu.pl/kontroler.
+ php?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128887\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWP - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250318T080000
 DTEND;VALUE=DATE-TIME:20250318T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859262@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
@@ -358,7 +165,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250318T164500
 DTEND;VALUE=DATE-TIME:20250318T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859276@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144240\n
@@ -367,10 +174,22 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:W - Knowledge Management in Critical Infrastructure
+DTSTART;VALUE=DATE-TIME:20250319T080000
+DTEND;VALUE=DATE-TIME:20250319T093000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520698@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 108a\nC-6\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
+ action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128320\n
+LOCATION:ul. Czarnowiejska 36\, 30-054 Kraków\, Polska
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:W - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250319T113000
 DTEND;VALUE=DATE-TIME:20250319T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859319@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nD-11\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143455\n
@@ -382,7 +201,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Formal methods
 DTSTART;VALUE=DATE-TIME:20250320T094500
 DTEND;VALUE=DATE-TIME:20250320T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859389@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
@@ -394,7 +213,7 @@ BEGIN:VEVENT
 SUMMARY:W - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250320T113000
 DTEND;VALUE=DATE-TIME:20250320T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859396@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143466\n
@@ -406,7 +225,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250321T080000
 DTEND;VALUE=DATE-TIME:20250321T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1876140@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
@@ -418,7 +237,7 @@ BEGIN:VEVENT
 SUMMARY:W - Model Checking
 DTSTART;VALUE=DATE-TIME:20250321T094500
 DTEND;VALUE=DATE-TIME:20250321T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859447@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
@@ -430,7 +249,7 @@ BEGIN:VEVENT
 SUMMARY:ZS - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250321T113000
 DTEND;VALUE=DATE-TIME:20250321T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859489@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
@@ -442,7 +261,7 @@ BEGIN:VEVENT
 SUMMARY:W - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250324T081500
 DTEND;VALUE=DATE-TIME:20250324T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859177@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
@@ -454,7 +273,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250324T113000
 DTEND;VALUE=DATE-TIME:20250324T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859205@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
@@ -466,7 +285,7 @@ BEGIN:VEVENT
 SUMMARY:W - Formal methods
 DTSTART;VALUE=DATE-TIME:20250324T150000
 DTEND;VALUE=DATE-TIME:20250324T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859233@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
@@ -478,7 +297,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Development Workshop 1
 DTSTART;VALUE=DATE-TIME:20250324T164500
 DTEND;VALUE=DATE-TIME:20250324T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859247@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
@@ -487,10 +306,21 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:W - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250324T183000
+DTEND;VALUE=DATE-TIME:20250324T200000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1770711@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: online\nonline\n\nhttps://web.usos.agh.edu.pl/kontroler.
+ php?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128887\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWP - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250325T080000
 DTEND;VALUE=DATE-TIME:20250325T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859261@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
@@ -502,7 +332,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250325T164500
 DTEND;VALUE=DATE-TIME:20250325T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859275@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144240\n
@@ -511,10 +341,22 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:W - Knowledge Management in Critical Infrastructure
+DTSTART;VALUE=DATE-TIME:20250326T080000
+DTEND;VALUE=DATE-TIME:20250326T093000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520697@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 108a\nC-6\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
+ action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128320\n
+LOCATION:ul. Czarnowiejska 36\, 30-054 Kraków\, Polska
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:W - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250326T113000
 DTEND;VALUE=DATE-TIME:20250326T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859318@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nD-11\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143455\n
@@ -526,7 +368,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Formal methods
 DTSTART;VALUE=DATE-TIME:20250327T094500
 DTEND;VALUE=DATE-TIME:20250327T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859388@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
@@ -538,7 +380,7 @@ BEGIN:VEVENT
 SUMMARY:W - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250327T113000
 DTEND;VALUE=DATE-TIME:20250327T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859395@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143466\n
@@ -550,7 +392,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250328T080000
 DTEND;VALUE=DATE-TIME:20250328T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1876139@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
@@ -562,7 +404,7 @@ BEGIN:VEVENT
 SUMMARY:W - Model Checking
 DTSTART;VALUE=DATE-TIME:20250328T094500
 DTEND;VALUE=DATE-TIME:20250328T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859446@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
@@ -574,7 +416,7 @@ BEGIN:VEVENT
 SUMMARY:ZS - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250328T113000
 DTEND;VALUE=DATE-TIME:20250328T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859488@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
@@ -586,7 +428,7 @@ BEGIN:VEVENT
 SUMMARY:W - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250331T081500
 DTEND;VALUE=DATE-TIME:20250331T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859176@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
@@ -598,7 +440,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250331T113000
 DTEND;VALUE=DATE-TIME:20250331T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859204@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
@@ -610,7 +452,7 @@ BEGIN:VEVENT
 SUMMARY:W - Formal methods
 DTSTART;VALUE=DATE-TIME:20250331T150000
 DTEND;VALUE=DATE-TIME:20250331T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859232@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
@@ -622,7 +464,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Development Workshop 1
 DTSTART;VALUE=DATE-TIME:20250331T164500
 DTEND;VALUE=DATE-TIME:20250331T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859246@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
@@ -631,10 +473,21 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:W - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250331T183000
+DTEND;VALUE=DATE-TIME:20250331T200000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1770712@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: online\nonline\n\nhttps://web.usos.agh.edu.pl/kontroler.
+ php?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128887\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWP - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250401T080000
 DTEND;VALUE=DATE-TIME:20250401T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859260@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
@@ -646,7 +499,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250401T164500
 DTEND;VALUE=DATE-TIME:20250401T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859274@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144240\n
@@ -655,10 +508,22 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:W - Knowledge Management in Critical Infrastructure
+DTSTART;VALUE=DATE-TIME:20250402T080000
+DTEND;VALUE=DATE-TIME:20250402T093000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520696@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 108a\nC-6\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
+ action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128320\n
+LOCATION:ul. Czarnowiejska 36\, 30-054 Kraków\, Polska
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:W - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250402T113000
 DTEND;VALUE=DATE-TIME:20250402T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859317@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nD-11\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143455\n
@@ -670,7 +535,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Formal methods
 DTSTART;VALUE=DATE-TIME:20250403T094500
 DTEND;VALUE=DATE-TIME:20250403T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859387@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
@@ -682,7 +547,7 @@ BEGIN:VEVENT
 SUMMARY:W - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250403T113000
 DTEND;VALUE=DATE-TIME:20250403T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859394@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143466\n
@@ -694,7 +559,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250404T080000
 DTEND;VALUE=DATE-TIME:20250404T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1876138@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
@@ -706,7 +571,7 @@ BEGIN:VEVENT
 SUMMARY:W - Model Checking
 DTSTART;VALUE=DATE-TIME:20250404T094500
 DTEND;VALUE=DATE-TIME:20250404T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859445@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
@@ -718,7 +583,7 @@ BEGIN:VEVENT
 SUMMARY:ZS - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250404T113000
 DTEND;VALUE=DATE-TIME:20250404T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859487@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
@@ -730,7 +595,7 @@ BEGIN:VEVENT
 SUMMARY:W - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250407T081500
 DTEND;VALUE=DATE-TIME:20250407T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859175@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
@@ -742,7 +607,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250407T113000
 DTEND;VALUE=DATE-TIME:20250407T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859203@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
@@ -754,7 +619,7 @@ BEGIN:VEVENT
 SUMMARY:W - Formal methods
 DTSTART;VALUE=DATE-TIME:20250407T150000
 DTEND;VALUE=DATE-TIME:20250407T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859231@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
@@ -766,7 +631,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Development Workshop 1
 DTSTART;VALUE=DATE-TIME:20250407T164500
 DTEND;VALUE=DATE-TIME:20250407T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859245@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
@@ -775,10 +640,21 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:W - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250407T183000
+DTEND;VALUE=DATE-TIME:20250407T200000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1770713@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: online\nonline\n\nhttps://web.usos.agh.edu.pl/kontroler.
+ php?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128887\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWP - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250408T080000
 DTEND;VALUE=DATE-TIME:20250408T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859259@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
@@ -790,7 +666,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250408T164500
 DTEND;VALUE=DATE-TIME:20250408T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859273@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144240\n
@@ -799,10 +675,22 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:W - Knowledge Management in Critical Infrastructure
+DTSTART;VALUE=DATE-TIME:20250409T080000
+DTEND;VALUE=DATE-TIME:20250409T093000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520695@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 108a\nC-6\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
+ action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128320\n
+LOCATION:ul. Czarnowiejska 36\, 30-054 Kraków\, Polska
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:W - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250409T113000
 DTEND;VALUE=DATE-TIME:20250409T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859316@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nD-11\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143455\n
@@ -814,7 +702,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250410T080000
 DTEND;VALUE=DATE-TIME:20250410T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1876151@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
@@ -826,7 +714,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Formal methods
 DTSTART;VALUE=DATE-TIME:20250410T094500
 DTEND;VALUE=DATE-TIME:20250410T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859386@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
@@ -838,7 +726,7 @@ BEGIN:VEVENT
 SUMMARY:W - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250410T113000
 DTEND;VALUE=DATE-TIME:20250410T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859393@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143466\n
@@ -850,7 +738,7 @@ BEGIN:VEVENT
 SUMMARY:W - Model Checking
 DTSTART;VALUE=DATE-TIME:20250411T094500
 DTEND;VALUE=DATE-TIME:20250411T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859444@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
@@ -862,7 +750,7 @@ BEGIN:VEVENT
 SUMMARY:ZS - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250411T113000
 DTEND;VALUE=DATE-TIME:20250411T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859486@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
@@ -874,7 +762,7 @@ BEGIN:VEVENT
 SUMMARY:W - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250414T081500
 DTEND;VALUE=DATE-TIME:20250414T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859174@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
@@ -886,7 +774,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250414T113000
 DTEND;VALUE=DATE-TIME:20250414T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859202@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
@@ -898,7 +786,7 @@ BEGIN:VEVENT
 SUMMARY:W - Formal methods
 DTSTART;VALUE=DATE-TIME:20250414T150000
 DTEND;VALUE=DATE-TIME:20250414T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859230@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
@@ -910,7 +798,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Development Workshop 1
 DTSTART;VALUE=DATE-TIME:20250414T164500
 DTEND;VALUE=DATE-TIME:20250414T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859244@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
@@ -919,10 +807,21 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:W - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250414T183000
+DTEND;VALUE=DATE-TIME:20250414T200000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1770714@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: online\nonline\n\nhttps://web.usos.agh.edu.pl/kontroler.
+ php?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128887\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWP - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250415T080000
 DTEND;VALUE=DATE-TIME:20250415T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859258@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
@@ -934,7 +833,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250415T164500
 DTEND;VALUE=DATE-TIME:20250415T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859272@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144240\n
@@ -943,10 +842,22 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ZS - Knowledge Management in Critical Infrastructure
+DTSTART;VALUE=DATE-TIME:20250416T080000
+DTEND;VALUE=DATE-TIME:20250416T093000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520703@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 108a\nC-6\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
+ action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128407\n
+LOCATION:ul. Czarnowiejska 36\, 30-054 Kraków\, Polska
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:W - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250416T113000
 DTEND;VALUE=DATE-TIME:20250416T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859315@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nD-11\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143455\n
@@ -955,10 +866,22 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ZS - Knowledge Management in Critical Infrastructure
+DTSTART;VALUE=DATE-TIME:20250423T080000
+DTEND;VALUE=DATE-TIME:20250423T093000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520702@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 108a\nC-6\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
+ action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128407\n
+LOCATION:ul. Czarnowiejska 36\, 30-054 Kraków\, Polska
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250424T080000
 DTEND;VALUE=DATE-TIME:20250424T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1876150@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
@@ -970,7 +893,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Formal methods
 DTSTART;VALUE=DATE-TIME:20250424T094500
 DTEND;VALUE=DATE-TIME:20250424T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859385@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
@@ -982,7 +905,7 @@ BEGIN:VEVENT
 SUMMARY:W - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250424T113000
 DTEND;VALUE=DATE-TIME:20250424T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859392@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143466\n
@@ -994,7 +917,7 @@ BEGIN:VEVENT
 SUMMARY:W - Model Checking
 DTSTART;VALUE=DATE-TIME:20250425T094500
 DTEND;VALUE=DATE-TIME:20250425T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859443@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
@@ -1006,7 +929,7 @@ BEGIN:VEVENT
 SUMMARY:ZS - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250425T113000
 DTEND;VALUE=DATE-TIME:20250425T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859485@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
@@ -1018,7 +941,7 @@ BEGIN:VEVENT
 SUMMARY:W - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250428T081500
 DTEND;VALUE=DATE-TIME:20250428T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859173@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
@@ -1030,7 +953,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250428T113000
 DTEND;VALUE=DATE-TIME:20250428T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859201@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
@@ -1042,7 +965,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Model Checking
 DTSTART;VALUE=DATE-TIME:20250428T131500
 DTEND;VALUE=DATE-TIME:20250428T144500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859194@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 4.07\nD-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144228\n
@@ -1053,7 +976,7 @@ BEGIN:VEVENT
 SUMMARY:W - Formal methods
 DTSTART;VALUE=DATE-TIME:20250428T150000
 DTEND;VALUE=DATE-TIME:20250428T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859229@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
@@ -1065,7 +988,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Development Workshop 1
 DTSTART;VALUE=DATE-TIME:20250428T164500
 DTEND;VALUE=DATE-TIME:20250428T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859243@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
@@ -1074,10 +997,32 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:W - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250428T183000
+DTEND;VALUE=DATE-TIME:20250428T191500
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1770715@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: online\nonline\n\nhttps://web.usos.agh.edu.pl/kontroler.
+ php?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128887\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CWA - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250428T191500
+DTEND;VALUE=DATE-TIME:20250428T200000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520600@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 1.2\nD-14a\n\nhttps://web.usos.agh.edu.pl/kontroler.php?
+ _action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128888\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250429T080000
 DTEND;VALUE=DATE-TIME:20250429T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1876143@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
@@ -1089,7 +1034,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Formal methods
 DTSTART;VALUE=DATE-TIME:20250429T094500
 DTEND;VALUE=DATE-TIME:20250429T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859378@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
@@ -1098,22 +1043,10 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:ZS - Knowledge Representation and Knowledge Engineering
-DTSTART;VALUE=DATE-TIME:20250429T113000
-DTEND;VALUE=DATE-TIME:20250429T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
-UID:sm-1859414@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
- ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144558\n
-LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:W - Model Checking
 DTSTART;VALUE=DATE-TIME:20250430T094500
 DTEND;VALUE=DATE-TIME:20250430T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859436@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
@@ -1125,7 +1058,7 @@ BEGIN:VEVENT
 SUMMARY:ZS - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250430T113000
 DTEND;VALUE=DATE-TIME:20250430T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859478@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
@@ -1137,7 +1070,7 @@ BEGIN:VEVENT
 SUMMARY:W - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250505T081500
 DTEND;VALUE=DATE-TIME:20250505T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859172@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
@@ -1149,7 +1082,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250505T113000
 DTEND;VALUE=DATE-TIME:20250505T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859200@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
@@ -1161,7 +1094,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Model Checking
 DTSTART;VALUE=DATE-TIME:20250505T131500
 DTEND;VALUE=DATE-TIME:20250505T144500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859193@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 4.07\nD-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144228\n
@@ -1172,7 +1105,7 @@ BEGIN:VEVENT
 SUMMARY:W - Formal methods
 DTSTART;VALUE=DATE-TIME:20250505T150000
 DTEND;VALUE=DATE-TIME:20250505T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859228@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
@@ -1184,7 +1117,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Development Workshop 1
 DTSTART;VALUE=DATE-TIME:20250505T164500
 DTEND;VALUE=DATE-TIME:20250505T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859242@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
@@ -1193,10 +1126,21 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CWA - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250505T183000
+DTEND;VALUE=DATE-TIME:20250505T200000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520601@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 1.2\nD-14a\n\nhttps://web.usos.agh.edu.pl/kontroler.php?
+ _action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128888\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWP - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250506T080000
 DTEND;VALUE=DATE-TIME:20250506T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859256@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
@@ -1208,7 +1152,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250506T164500
 DTEND;VALUE=DATE-TIME:20250506T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859285@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144475\n
@@ -1217,10 +1161,22 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:ZS - Knowledge Management in Critical Infrastructure
+DTSTART;VALUE=DATE-TIME:20250507T084500
+DTEND;VALUE=DATE-TIME:20250507T093000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520700@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 107\nC-6\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
+ ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128407\n
+LOCATION:ul. Czarnowiejska 36\, 30-054 Kraków\, Polska
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250508T080000
 DTEND;VALUE=DATE-TIME:20250508T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1876149@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
@@ -1232,7 +1188,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Formal methods
 DTSTART;VALUE=DATE-TIME:20250508T094500
 DTEND;VALUE=DATE-TIME:20250508T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859384@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
@@ -1242,11 +1198,11 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ZS - Knowledge Representation and Knowledge Engineering
-DTSTART;VALUE=DATE-TIME:20250508T113000
-DTEND;VALUE=DATE-TIME:20250508T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTART;VALUE=DATE-TIME:20250508T150000
+DTEND;VALUE=DATE-TIME:20250508T163000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859420@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
+DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144558\n
 LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
 STATUS:CONFIRMED
@@ -1256,7 +1212,7 @@ BEGIN:VEVENT
 SUMMARY:W - Model Checking
 DTSTART;VALUE=DATE-TIME:20250509T094500
 DTEND;VALUE=DATE-TIME:20250509T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859442@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
@@ -1268,7 +1224,7 @@ BEGIN:VEVENT
 SUMMARY:ZS - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250509T113000
 DTEND;VALUE=DATE-TIME:20250509T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859484@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
@@ -1280,7 +1236,7 @@ BEGIN:VEVENT
 SUMMARY:W - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250512T081500
 DTEND;VALUE=DATE-TIME:20250512T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859171@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
@@ -1292,7 +1248,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250512T113000
 DTEND;VALUE=DATE-TIME:20250512T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859199@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
@@ -1304,7 +1260,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Model Checking
 DTSTART;VALUE=DATE-TIME:20250512T131500
 DTEND;VALUE=DATE-TIME:20250512T144500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859192@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 4.07\nD-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144228\n
@@ -1315,7 +1271,7 @@ BEGIN:VEVENT
 SUMMARY:W - Formal methods
 DTSTART;VALUE=DATE-TIME:20250512T150000
 DTEND;VALUE=DATE-TIME:20250512T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859227@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
@@ -1327,7 +1283,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Development Workshop 1
 DTSTART;VALUE=DATE-TIME:20250512T164500
 DTEND;VALUE=DATE-TIME:20250512T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859241@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
@@ -1336,10 +1292,21 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CWA - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250512T183000
+DTEND;VALUE=DATE-TIME:20250512T200000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520602@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 1.2\nD-14a\n\nhttps://web.usos.agh.edu.pl/kontroler.php?
+ _action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128888\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWP - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250513T080000
 DTEND;VALUE=DATE-TIME:20250513T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859255@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
@@ -1351,7 +1318,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250513T164500
 DTEND;VALUE=DATE-TIME:20250513T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859284@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144475\n
@@ -1363,7 +1330,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250515T080000
 DTEND;VALUE=DATE-TIME:20250515T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1876148@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
@@ -1375,7 +1342,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Formal methods
 DTSTART;VALUE=DATE-TIME:20250515T094500
 DTEND;VALUE=DATE-TIME:20250515T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859383@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
@@ -1385,11 +1352,11 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ZS - Knowledge Representation and Knowledge Engineering
-DTSTART;VALUE=DATE-TIME:20250515T113000
-DTEND;VALUE=DATE-TIME:20250515T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTART;VALUE=DATE-TIME:20250515T150000
+DTEND;VALUE=DATE-TIME:20250515T163000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859419@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
+DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144558\n
 LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
 STATUS:CONFIRMED
@@ -1399,7 +1366,7 @@ BEGIN:VEVENT
 SUMMARY:W - Model Checking
 DTSTART;VALUE=DATE-TIME:20250516T094500
 DTEND;VALUE=DATE-TIME:20250516T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859441@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
@@ -1411,7 +1378,7 @@ BEGIN:VEVENT
 SUMMARY:ZS - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250516T113000
 DTEND;VALUE=DATE-TIME:20250516T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859483@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
@@ -1423,7 +1390,7 @@ BEGIN:VEVENT
 SUMMARY:W - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250519T081500
 DTEND;VALUE=DATE-TIME:20250519T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859170@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
@@ -1435,7 +1402,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250519T113000
 DTEND;VALUE=DATE-TIME:20250519T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859198@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
@@ -1447,7 +1414,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Model Checking
 DTSTART;VALUE=DATE-TIME:20250519T131500
 DTEND;VALUE=DATE-TIME:20250519T144500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859191@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 4.07\nD-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144228\n
@@ -1458,7 +1425,7 @@ BEGIN:VEVENT
 SUMMARY:W - Formal methods
 DTSTART;VALUE=DATE-TIME:20250519T150000
 DTEND;VALUE=DATE-TIME:20250519T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859226@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
@@ -1470,7 +1437,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Development Workshop 1
 DTSTART;VALUE=DATE-TIME:20250519T164500
 DTEND;VALUE=DATE-TIME:20250519T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859240@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
@@ -1479,10 +1446,21 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CWA - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250519T183000
+DTEND;VALUE=DATE-TIME:20250519T200000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520603@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 1.2\nD-14a\n\nhttps://web.usos.agh.edu.pl/kontroler.php?
+ _action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128888\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWP - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250520T080000
 DTEND;VALUE=DATE-TIME:20250520T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859254@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
@@ -1494,7 +1472,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250520T164500
 DTEND;VALUE=DATE-TIME:20250520T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859283@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144475\n
@@ -1506,7 +1484,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250522T080000
 DTEND;VALUE=DATE-TIME:20250522T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1876147@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
@@ -1518,7 +1496,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Formal methods
 DTSTART;VALUE=DATE-TIME:20250522T094500
 DTEND;VALUE=DATE-TIME:20250522T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859382@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
@@ -1528,11 +1506,11 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ZS - Knowledge Representation and Knowledge Engineering
-DTSTART;VALUE=DATE-TIME:20250522T113000
-DTEND;VALUE=DATE-TIME:20250522T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTART;VALUE=DATE-TIME:20250522T150000
+DTEND;VALUE=DATE-TIME:20250522T163000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859418@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
+DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144558\n
 LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
 STATUS:CONFIRMED
@@ -1542,7 +1520,7 @@ BEGIN:VEVENT
 SUMMARY:W - Model Checking
 DTSTART;VALUE=DATE-TIME:20250523T094500
 DTEND;VALUE=DATE-TIME:20250523T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859440@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
@@ -1554,7 +1532,7 @@ BEGIN:VEVENT
 SUMMARY:ZS - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250523T113000
 DTEND;VALUE=DATE-TIME:20250523T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859482@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
@@ -1566,7 +1544,7 @@ BEGIN:VEVENT
 SUMMARY:W - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250526T081500
 DTEND;VALUE=DATE-TIME:20250526T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859169@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
@@ -1578,7 +1556,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250526T113000
 DTEND;VALUE=DATE-TIME:20250526T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859197@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
@@ -1590,7 +1568,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Model Checking
 DTSTART;VALUE=DATE-TIME:20250526T131500
 DTEND;VALUE=DATE-TIME:20250526T144500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859190@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 4.07\nD-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144228\n
@@ -1601,7 +1579,7 @@ BEGIN:VEVENT
 SUMMARY:W - Formal methods
 DTSTART;VALUE=DATE-TIME:20250526T150000
 DTEND;VALUE=DATE-TIME:20250526T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859225@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
@@ -1613,7 +1591,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Development Workshop 1
 DTSTART;VALUE=DATE-TIME:20250526T164500
 DTEND;VALUE=DATE-TIME:20250526T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859239@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
@@ -1622,10 +1600,21 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CWA - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250526T183000
+DTEND;VALUE=DATE-TIME:20250526T200000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520604@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 1.2\nD-14a\n\nhttps://web.usos.agh.edu.pl/kontroler.php?
+ _action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128888\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWP - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250527T080000
 DTEND;VALUE=DATE-TIME:20250527T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859253@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
@@ -1637,7 +1626,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250527T164500
 DTEND;VALUE=DATE-TIME:20250527T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859282@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144475\n
@@ -1649,7 +1638,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250529T080000
 DTEND;VALUE=DATE-TIME:20250529T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1876146@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
@@ -1661,7 +1650,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Formal methods
 DTSTART;VALUE=DATE-TIME:20250529T094500
 DTEND;VALUE=DATE-TIME:20250529T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859381@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
@@ -1671,11 +1660,11 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ZS - Knowledge Representation and Knowledge Engineering
-DTSTART;VALUE=DATE-TIME:20250529T113000
-DTEND;VALUE=DATE-TIME:20250529T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTART;VALUE=DATE-TIME:20250529T150000
+DTEND;VALUE=DATE-TIME:20250529T163000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859417@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
+DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144558\n
 LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
 STATUS:CONFIRMED
@@ -1685,7 +1674,7 @@ BEGIN:VEVENT
 SUMMARY:W - Model Checking
 DTSTART;VALUE=DATE-TIME:20250530T094500
 DTEND;VALUE=DATE-TIME:20250530T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859439@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
@@ -1697,7 +1686,7 @@ BEGIN:VEVENT
 SUMMARY:ZS - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250530T113000
 DTEND;VALUE=DATE-TIME:20250530T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859481@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
@@ -1709,7 +1698,7 @@ BEGIN:VEVENT
 SUMMARY:W - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250602T081500
 DTEND;VALUE=DATE-TIME:20250602T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859168@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
@@ -1721,7 +1710,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250602T113000
 DTEND;VALUE=DATE-TIME:20250602T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859196@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
@@ -1733,7 +1722,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Model Checking
 DTSTART;VALUE=DATE-TIME:20250602T131500
 DTEND;VALUE=DATE-TIME:20250602T144500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859189@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 4.07\nD-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144228\n
@@ -1744,7 +1733,7 @@ BEGIN:VEVENT
 SUMMARY:W - Formal methods
 DTSTART;VALUE=DATE-TIME:20250602T150000
 DTEND;VALUE=DATE-TIME:20250602T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859224@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
@@ -1756,7 +1745,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Development Workshop 1
 DTSTART;VALUE=DATE-TIME:20250602T164500
 DTEND;VALUE=DATE-TIME:20250602T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859238@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
@@ -1765,10 +1754,21 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CWA - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250602T183000
+DTEND;VALUE=DATE-TIME:20250602T200000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520605@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 1.2\nD-14a\n\nhttps://web.usos.agh.edu.pl/kontroler.php?
+ _action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128888\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWP - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250603T080000
 DTEND;VALUE=DATE-TIME:20250603T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859252@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
@@ -1780,7 +1780,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250603T164500
 DTEND;VALUE=DATE-TIME:20250603T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859281@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144475\n
@@ -1792,7 +1792,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250605T080000
 DTEND;VALUE=DATE-TIME:20250605T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1876145@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
@@ -1804,7 +1804,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Formal methods
 DTSTART;VALUE=DATE-TIME:20250605T094500
 DTEND;VALUE=DATE-TIME:20250605T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859380@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
@@ -1814,11 +1814,11 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ZS - Knowledge Representation and Knowledge Engineering
-DTSTART;VALUE=DATE-TIME:20250605T113000
-DTEND;VALUE=DATE-TIME:20250605T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTART;VALUE=DATE-TIME:20250605T150000
+DTEND;VALUE=DATE-TIME:20250605T163000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859416@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
+DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144558\n
 LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
 STATUS:CONFIRMED
@@ -1828,7 +1828,7 @@ BEGIN:VEVENT
 SUMMARY:W - Model Checking
 DTSTART;VALUE=DATE-TIME:20250606T094500
 DTEND;VALUE=DATE-TIME:20250606T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859438@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
@@ -1840,7 +1840,7 @@ BEGIN:VEVENT
 SUMMARY:ZS - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250606T113000
 DTEND;VALUE=DATE-TIME:20250606T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859480@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
@@ -1852,7 +1852,7 @@ BEGIN:VEVENT
 SUMMARY:W - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250609T081500
 DTEND;VALUE=DATE-TIME:20250609T094500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859167@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143440\n
@@ -1864,7 +1864,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250609T113000
 DTEND;VALUE=DATE-TIME:20250609T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859195@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144245\n
@@ -1876,7 +1876,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Model Checking
 DTSTART;VALUE=DATE-TIME:20250609T131500
 DTEND;VALUE=DATE-TIME:20250609T144500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859188@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 4.07\nD-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144228\n
@@ -1887,7 +1887,7 @@ BEGIN:VEVENT
 SUMMARY:W - Formal methods
 DTSTART;VALUE=DATE-TIME:20250609T150000
 DTEND;VALUE=DATE-TIME:20250609T163000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859223@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 107\nB-5\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143452\n
@@ -1899,7 +1899,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Development Workshop 1
 DTSTART;VALUE=DATE-TIME:20250609T164500
 DTEND;VALUE=DATE-TIME:20250609T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859237@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 221\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144452\n
@@ -1908,10 +1908,21 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CWA - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250609T183000
+DTEND;VALUE=DATE-TIME:20250609T200000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520606@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 1.2\nD-14a\n\nhttps://web.usos.agh.edu.pl/kontroler.php?
+ _action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128888\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWP - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250610T080000
 DTEND;VALUE=DATE-TIME:20250610T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859251@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
@@ -1923,7 +1934,7 @@ BEGIN:VEVENT
 SUMMARY:CWP - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250610T164500
 DTEND;VALUE=DATE-TIME:20250610T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859280@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144475\n
@@ -1935,7 +1946,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Knowledge Representation and Knowledge Engineering
 DTSTART;VALUE=DATE-TIME:20250612T080000
 DTEND;VALUE=DATE-TIME:20250612T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1876144@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 316\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144251\n
@@ -1947,7 +1958,7 @@ BEGIN:VEVENT
 SUMMARY:CWL - Formal methods
 DTSTART;VALUE=DATE-TIME:20250612T094500
 DTEND;VALUE=DATE-TIME:20250612T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859379@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 216\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144238\n
@@ -1957,11 +1968,11 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ZS - Knowledge Representation and Knowledge Engineering
-DTSTART;VALUE=DATE-TIME:20250612T113000
-DTEND;VALUE=DATE-TIME:20250612T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTART;VALUE=DATE-TIME:20250612T150000
+DTEND;VALUE=DATE-TIME:20250612T163000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859415@apps.usos.agh.edu.pl
-DESCRIPTION:Sala: 224\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
+DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144558\n
 LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
 STATUS:CONFIRMED
@@ -1971,7 +1982,7 @@ BEGIN:VEVENT
 SUMMARY:W - Model Checking
 DTSTART;VALUE=DATE-TIME:20250613T094500
 DTEND;VALUE=DATE-TIME:20250613T111500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859437@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 101\nC-3\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=143430\n
@@ -1983,7 +1994,7 @@ BEGIN:VEVENT
 SUMMARY:ZS - Statistics for Intelligent Systems
 DTSTART;VALUE=DATE-TIME:20250613T113000
 DTEND;VALUE=DATE-TIME:20250613T130000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859479@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
  ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
@@ -1992,10 +2003,21 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:CWA - Trends in Globalization and International Business
+DTSTART;VALUE=DATE-TIME:20250616T183000
+DTEND;VALUE=DATE-TIME:20250616T200000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1520607@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 1.2\nD-14a\n\nhttps://web.usos.agh.edu.pl/kontroler.php?
+ _action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=128888\n
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:CWP - Agent Systems
 DTSTART;VALUE=DATE-TIME:20250617T080000
 DTEND;VALUE=DATE-TIME:20250617T093000
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859257@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: on-line\nB-1\n\nhttps://web.usos.agh.edu.pl/kontroler.ph
  p?_action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144465\n
@@ -2007,11 +2029,35 @@ BEGIN:VEVENT
 SUMMARY:CWP - Modelling of Physical Systems
 DTSTART;VALUE=DATE-TIME:20250617T164500
 DTEND;VALUE=DATE-TIME:20250617T181500
-DTSTAMP;VALUE=DATE-TIME:20250227T231541Z
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
 UID:sm-1859279@apps.usos.agh.edu.pl
 DESCRIPTION:Sala: 30a\nD-10\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_
  action=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144475\n
 LOCATION:ul. Reymonta 19\, 30-059 Kraków\, Polska
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ZS - Knowledge Representation and Knowledge Engineering
+DTSTART;VALUE=DATE-TIME:20250623T150000
+DTEND;VALUE=DATE-TIME:20250623T163000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1859414@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
+ ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144558\n
+LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ZS - Statistics for Intelligent Systems
+DTSTART;VALUE=DATE-TIME:20250625T113000
+DTEND;VALUE=DATE-TIME:20250625T130000
+DTSTAMP;VALUE=DATE-TIME:20250312T200518Z
+UID:sm-1859491@apps.usos.agh.edu.pl
+DESCRIPTION:Sala: 429\nC-2\n\nhttps://web.usos.agh.edu.pl/kontroler.php?_a
+ ction=katalog2/przedmioty/pokazZajecia&gr_nr=1&zaj_cyk_id=144556\n
+LOCATION:al. Mickiewicza 30\, 30-059 Kraków\, Polska
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

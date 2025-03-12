@@ -4,7 +4,7 @@ from typing import Any
 import requests
 from aws_lambda_powertools.event_handler import APIGatewayHttpResolver, Response
 from aws_lambda_powertools.utilities.typing import LambdaContext
-from icalendar.cal import Calendar, Event
+from icalendar.cal import Calendar, Component, Event
 
 warnings.filterwarnings("ignore", message=".*maxsplit.*", category=DeprecationWarning, module=r"ics\.utils")
 
@@ -65,17 +65,36 @@ def fetch_calendar(url: str) -> Calendar:
 
 def filter_lectures(calendar: Calendar) -> Calendar:
     new_cal = Calendar()
+
     for prop, value in calendar.items():
         new_cal.add(prop, value)
+
     for component in calendar.walk():
-        if component.name == "VEVENT":
-            if not is_lecture(component):
-                new_cal.add_component(component)
+        if not is_event(component=component):
+            continue
+        event: Event = component
+
+        if not is_obligatory(event=event):
+            continue
+
+        add_to_description(event=event, text=f"UID: {event.get("UID")}")
+        new_cal.add_component(component=component)
+
     return new_cal
 
 
-def is_lecture(event: Event) -> bool:
-    summary = event.get("summary")
-    if summary and isinstance(summary, str):
-        return summary.startswith("W")
-    return False
+def is_event(component: Component) -> bool:
+    return component.name == "VEVENT"
+
+
+def is_obligatory(event: Event) -> bool:
+    summary = event["SUMMARY"]
+    
+    if summary.startswith("W - Knowledge Management in Critical Infrastructure"):
+        return True
+    
+    return not summary.startswith("W")
+
+
+def add_to_description(event: Event, text: str) -> None:
+    event["DESCRIPTION"] += f"\n{text}"

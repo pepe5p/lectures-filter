@@ -14,6 +14,7 @@ requests = "^2.32.3"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.10.0"
+copier = "^9.6.0"
 fawltydeps = "^0.13.3"
 flake8 = "^6.0.0"
 flake8-pyproject = "^1.2.3"
@@ -49,6 +50,7 @@ ignore_unused = [
 
     # Dev dependencies. This list should contain ALL of them!
     "black",
+    "copier",
     "fawltydeps",
     "flake8",
     "flake8-pyproject",

@@ -15,7 +15,7 @@ WORKDIR /code/
 
 COPY pyproject.toml pyproject.toml
 
-RUN pip install poetry==1.8.4 \
+RUN pip install poetry==2.1.1 \
   && poetry config virtualenvs.create false \
   && poetry install --no-root --all-extras
 

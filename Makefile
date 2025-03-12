@@ -77,11 +77,7 @@ bash:  ### Open bash console (useful when prefixed with dc/, as it opens bash in
 	bash
 
 copier_update:  ### Run copier to update project from template
-	@TEMPLATES=$$(ls -a .copier | grep -i ".copier-answers" | sed -e 's/\.copier-answers\.//' -e 's/\.yml//'); \
-	echo "Available templates:"; \
-	echo "$$TEMPLATES" | sed 's/^/* /'; \
-	read -p "Enter template name: " TEMPLATE; \
-	copier update --answers-file .copier/.copier-answers.$$TEMPLATE.yml --skip-answered
+	copier update --answers-file .copier/.copier-answers.copier-python-project.yml --skip-answered
 
 ps:  ### Open python console (useful when prefixed with dc/, as it opens python console inside docker)
 	PYTHONPATH=./src PYTHONSTARTUP=ipython_startup.py ipython
