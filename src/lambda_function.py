@@ -93,6 +93,9 @@ def is_obligatory(event: Event) -> bool:
     if summary.startswith("W - Knowledge Management in Critical Infrastructure"):
         return True
     
+    if summary.startswith("CWP - Development Workshop"):
+        return False
+    
     return not summary.startswith("W")
 
 
