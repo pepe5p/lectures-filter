@@ -89,13 +89,13 @@ def is_event(component: Component) -> bool:
 
 def is_obligatory(event: Event) -> bool:
     summary = event["SUMMARY"]
-    
+
     if summary.startswith("W - Knowledge Management in Critical Infrastructure"):
         return True
-    
+
     if summary.startswith("CWP - Development Workshop"):
         return False
-    
+
     return not summary.startswith("W")
 
 
