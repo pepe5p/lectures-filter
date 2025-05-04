@@ -86,7 +86,7 @@ generate_requirements:
 	poetry export --without-hashes -f requirements.txt > requirements.txt
 
 install:
-	pip install --target ./package -r requirements.txt
+	pip3 install --target ./package -r requirements.txt
 
 pack:
 	cd package && zip -r ../pkg.zip . && cd .. && zip -g pkg.zip src/*

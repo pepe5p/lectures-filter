@@ -1,6 +1,10 @@
 from dataclasses import dataclass
+from datetime import datetime, timedelta
 
 import pytest
+from icalendar import Event
+
+TEST_DATETIME = datetime(2023, 11, 1, 0, 0, 0)
 
 
 @pytest.fixture()
@@ -32,3 +36,24 @@ def api_gw_event() -> dict:
         },
         "rawPath": "/",
     }
+
+
+def create_event(start: datetime, end: datetime) -> Event:
+    event = Event()
+    event.add("dtstart", start)
+    event.add("dtend", end)
+    return event
+
+
+def create_past_event(start: datetime | None = None) -> Event:
+    start = start or datetime(2020, 11, 1)
+    assert start < TEST_DATETIME
+    end = start + timedelta(hours=1, minutes=30)
+    return create_event(start=start, end=end)
+
+
+def create_future_event(start: datetime | None = None) -> Event:
+    start = start or datetime(2023, 12, 1)
+    assert start > TEST_DATETIME
+    end = start + timedelta(hours=1, minutes=30)
+    return create_event(start=start, end=end)

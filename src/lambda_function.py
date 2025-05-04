@@ -1,14 +1,24 @@
 import warnings
-from typing import Any
+from typing import Any, TYPE_CHECKING
 
+import boto3
 import requests
 from aws_lambda_powertools.event_handler import APIGatewayHttpResolver, Response
 from aws_lambda_powertools.utilities.typing import LambdaContext
-from icalendar.cal import Calendar, Component, Event
+from icalendar.cal import Calendar
+
+from calendar_managing import filter_lectures, join_calendars
+
+if TYPE_CHECKING:
+    from types_boto3_s3 import S3Client
+else:
+    S3Client = object
 
 warnings.filterwarnings("ignore", message=".*maxsplit.*", category=DeprecationWarning, module=r"ics\.utils")
 
 app = APIGatewayHttpResolver()
+
+s3_client: S3Client = boto3.client("s3")
 
 
 def lambda_handler(event: dict[str, Any], context: LambdaContext) -> dict:
@@ -48,7 +58,9 @@ def main() -> Response[str]:
             body=f"Failed to fetch calendar with url {url}: {e}",
         )
 
-    filtered_calendar = filter_lectures(calendar=calendar)
+    saved_calendar = get_saved_calendar(user_id="111784")
+    joint_calendar = join_calendars(calendar=calendar, saved_calendar=saved_calendar)
+    filtered_calendar = filter_lectures(calendar=joint_calendar)
 
     return Response(
         status_code=200,
@@ -63,41 +75,15 @@ def fetch_calendar(url: str) -> Calendar:
     return Calendar.from_ical(fetched_calendar)
 
 
-def filter_lectures(calendar: Calendar) -> Calendar:
-    new_cal = Calendar()
+def get_saved_calendar(user_id: str) -> Calendar:
+    key = f"u{user_id}.ics"
+    path = f"/tmp/{key}"
+    s3_client.download_file(
+        Bucket="lectures-filter-bucket",
+        Key=key,
+        Filename=path,
+    )
+    with open(path) as f:
+        calendar = Calendar.from_ical(f.read())
 
-    for prop, value in calendar.items():
-        new_cal.add(prop, value)
-
-    for component in calendar.walk():
-        if not is_event(component=component):
-            continue
-        event: Event = component
-
-        if not is_obligatory(event=event):
-            continue
-
-        add_to_description(event=event, text=f"UID: {event.get("UID")}")
-        new_cal.add_component(component=component)
-
-    return new_cal
-
-
-def is_event(component: Component) -> bool:
-    return component.name == "VEVENT"
-
-
-def is_obligatory(event: Event) -> bool:
-    summary = event["SUMMARY"]
-
-    if summary.startswith("W - Knowledge Management in Critical Infrastructure"):
-        return True
-
-    if summary.startswith("CWP - Development Workshop"):
-        return False
-
-    return not summary.startswith("W")
-
-
-def add_to_description(event: Event, text: str) -> None:
-    event["DESCRIPTION"] += f"\n{text}"
+    return calendar

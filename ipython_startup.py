@@ -1,6 +1,7 @@
+from datetime import datetime
 from pathlib import Path
 
-from icalendar import Calendar
+from icalendar import Event
 
 from lambda_function import *
 
