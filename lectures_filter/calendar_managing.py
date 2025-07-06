@@ -2,7 +2,6 @@ from datetime import datetime
 from typing import Callable, cast
 
 from icalendar import Calendar, Event
-from icalendar.cal import Component
 
 
 def join_calendars(new_calendar: Calendar, old_calendar: Calendar) -> Calendar:
@@ -47,10 +46,6 @@ def is_past_event(event: Event) -> bool:
 
 def is_future_event(event: Event) -> bool:
     return not is_past_event(event=event)
-
-
-def is_event(component: Component) -> bool:
-    return component.name == "VEVENT"
 
 
 def add_to_description(event: Event, text: str) -> None:
