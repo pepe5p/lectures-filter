@@ -11,10 +11,10 @@ ANSWERS_FILE := ".copier/.copier-answers.copier-python-project.yml"
 # --- Commands for development ---
 
 # Run all checks and tests (lints, mypy, tests...)
-all: lint mypy test
+all: lint_full test
 
 # Run all checks and tests, but fail on first that returns error (lints, mypy, tests...)
-all_ff: lint_ff mypy test
+all_ff: lint_full_ff test
 
 # Run black lint check (code formatting)
 black:
