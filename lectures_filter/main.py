@@ -34,7 +34,7 @@ def main(usos_user_id: str) -> Response[str]:
 
     saved_calendar = get_saved_calendar(user_id=user_config.usos.user_id)
 
-    joint_calendar = join_calendars(main_calendar=calendar, calendar_to_join=saved_calendar)
+    joint_calendar = join_calendars(new_calendar=calendar, old_calendar=saved_calendar)
 
     filtered_calendar = filter_calendar(
         calendar=joint_calendar,

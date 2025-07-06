@@ -20,13 +20,13 @@ def filter_calendar(calendar: Calendar, filter_function: Callable[[Event], bool]
     return new_cal
 
 
-def join_calendars(main_calendar: Calendar, calendar_to_join: Calendar) -> Calendar:
-    new_cal = copy_calendar_without_components(calendar=main_calendar)
+def join_calendars(new_calendar: Calendar, old_calendar: Calendar) -> Calendar:
+    new_cal = copy_calendar_without_components(calendar=new_calendar)
 
-    for component in calendar_to_join.walk(name="VEVENT", select=is_past_event):
+    for component in old_calendar.walk(name="VEVENT", select=is_past_event):
         new_cal.add_component(component=component)
 
-    for component in main_calendar.walk(name="VEVENT", select=is_future_event):
+    for component in new_calendar.walk(name="VEVENT", select=is_future_event):
         new_cal.add_component(component=component)
 
     return new_cal
