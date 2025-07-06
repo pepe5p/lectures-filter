@@ -5,6 +5,18 @@ from icalendar import Calendar, Event
 from icalendar.cal import Component
 
 
+def join_calendars(new_calendar: Calendar, old_calendar: Calendar) -> Calendar:
+    new_cal = copy_calendar_without_components(calendar=new_calendar)
+
+    for component in old_calendar.walk(name="VEVENT", select=is_past_event):
+        new_cal.add_component(component=component)
+
+    for component in new_calendar.walk(name="VEVENT", select=is_future_event):
+        new_cal.add_component(component=component)
+
+    return new_cal
+
+
 def filter_calendar(calendar: Calendar, filter_function: Callable[[Event], bool]) -> Calendar:
     new_cal = copy_calendar_without_components(calendar=calendar)
 
@@ -16,18 +28,6 @@ def filter_calendar(calendar: Calendar, filter_function: Callable[[Event], bool]
 
         add_to_description(event=event, text=f"UID: {event.get("UID")}")
         new_cal.add_component(component=event)
-
-    return new_cal
-
-
-def join_calendars(new_calendar: Calendar, old_calendar: Calendar) -> Calendar:
-    new_cal = copy_calendar_without_components(calendar=new_calendar)
-
-    for component in old_calendar.walk(name="VEVENT", select=is_past_event):
-        new_cal.add_component(component=component)
-
-    for component in new_calendar.walk(name="VEVENT", select=is_future_event):
-        new_cal.add_component(component=component)
 
     return new_cal
 
