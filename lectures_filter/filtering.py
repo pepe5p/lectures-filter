@@ -1,13 +1,35 @@
 from icalendar.cal import Event
+from pydantic import BaseModel
+
+from lectures_filter.common import NotEmptyStr
 
 
-def filter_for_karasss(event: Event) -> bool:
-    summary = event["SUMMARY"]
+class Pattern(BaseModel):
+    pattern: NotEmptyStr
+    exceptions: list["Pattern"] = []
 
-    if summary.startswith("W - Knowledge Management in Critical Infrastructure"):
+    def is_matching(self, string: str) -> bool:
+        if not string.startswith(self.pattern):
+            return False
+
+        string_for_next_layer = string.replace(self.pattern, "")
+        for exception in self.exceptions:
+            if exception.is_matching(string=string_for_next_layer):
+                return False
+
         return True
 
-    if summary.startswith("CWP - Development Workshop"):
-        return False
 
-    return not summary.startswith("W")
+class FilteringConfig(BaseModel):
+    match_by_default: bool = True
+    exceptions: list[Pattern] = []
+
+    def should_include_event(self, event: Event) -> bool:
+        title = event["SUMMARY"]
+        default_result = self.match_by_default
+
+        for exception in self.exceptions:
+            if exception.is_matching(string=title):
+                return not default_result
+
+        return default_result

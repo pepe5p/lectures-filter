@@ -1,0 +1,21 @@
+{
+  "usos": {
+    "user_id": "111784",
+    "calendar_key": "abcdef"
+  },
+  "filtering": {
+    "match_by_default": true,
+    "exceptions": [
+      {
+        "pattern": "W",
+        "exceptions": [
+          {
+            "pattern": " - Knowledge Management in Critical Infrastructure",
+            "exceptions": []
+          }
+        ]
+      },
+      {"pattern": "CWP - Development Workshop", "exceptions": []}
+    ]
+  }
+}
