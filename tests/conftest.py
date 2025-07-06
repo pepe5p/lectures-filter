@@ -29,14 +29,15 @@ def api_gw_event() -> dict[str, Any]:
         "requestContext": {
             "http": {
                 "method": "GET",
-                "path": "/",
+                "path": "/user_id/calendar",
                 "protocol": "HTTP/1.1",
                 "sourceIp": "192.168.0.1/32",
                 "userAgent": "agent",
             },
             "stage": "$default",
         },
-        "rawPath": "/",
+        "resource": "/{usos_user_id}/calendar",
+        "rawPath": "/user_id/calendar",
     }
 
 
