@@ -26,7 +26,7 @@ jobs:
 
       - name: install just
         run: |
-          apt install just
+          sudo apt install just
 
       - name: run linters
         run: |
