@@ -59,10 +59,11 @@ def main() -> Response[str]:
     try:
         calendar = fetch_calendar(user_id=user_id, key=key)
     except requests.exceptions.RequestException as e:
+        url = e.request.url if e.request else "unknown"
         return Response(
             status_code=400,
             content_type="text/plain",
-            body=f"Failed to fetch calendar with url {e.request.url}: {e}",
+            body=f"Failed to fetch calendar with url `{url}`: {e}",
         )
 
     saved_calendar = get_saved_calendar(user_id=user_id)
