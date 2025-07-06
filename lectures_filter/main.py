@@ -1,3 +1,4 @@
+import os
 import warnings
 from typing import Any, TYPE_CHECKING
 
@@ -7,18 +8,23 @@ from aws_lambda_powertools.event_handler import APIGatewayHttpResolver, Response
 from aws_lambda_powertools.utilities.typing import LambdaContext
 from icalendar.cal import Calendar
 
-from calendar_managing import filter_lectures, join_calendars
+from lectures_filter.calendar_managing import filter_calendar, join_calendars
+from lectures_filter.filtering import filter_for_karasss
 
 if TYPE_CHECKING:
     from types_boto3_s3 import S3Client
-else:
-    S3Client = object
 
 warnings.filterwarnings("ignore", message=".*maxsplit.*", category=DeprecationWarning, module=r"ics\.utils")
 
 app = APIGatewayHttpResolver()
 
-s3_client: S3Client = boto3.client("s3")
+s3_client: "S3Client" = boto3.client("s3")
+
+USOS_URL = os.getenv(
+    "USOS_URL",
+    "https://apps.usos.agh.edu.pl/services/tt/upcoming_ical?lang=pl&user_id={user_id}&key={key}",
+)
+S3_BUCKET_NAME = os.getenv("S3_BUCKET_NAME", "lectures-filter-bucket")
 
 
 def lambda_handler(event: dict[str, Any], context: LambdaContext) -> dict:
@@ -47,20 +53,22 @@ def lambda_handler(event: dict[str, Any], context: LambdaContext) -> dict:
 
 @app.get("/")
 def main() -> Response[str]:
-    url = "https://apps.usos.agh.edu.pl/services/tt/upcoming_ical?lang=pl&user_id=111784&key=ZkrfPLwhRnzFZnA8uTUt"
+    user_id = "111784"
+    key = "ZkrfPLwhRnzFZnA8uTUt"
 
     try:
-        calendar = fetch_calendar(url=url)
+        calendar = fetch_calendar(user_id=user_id, key=key)
     except requests.exceptions.RequestException as e:
+        url = e.request.url if e.request else "unknown"
         return Response(
             status_code=400,
             content_type="text/plain",
-            body=f"Failed to fetch calendar with url {url}: {e}",
+            body=f"Failed to fetch calendar with url `{url}`: {e}",
         )
 
-    saved_calendar = get_saved_calendar(user_id="111784")
-    joint_calendar = join_calendars(calendar=calendar, saved_calendar=saved_calendar)
-    filtered_calendar = filter_lectures(calendar=joint_calendar)
+    saved_calendar = get_saved_calendar(user_id=user_id)
+    joint_calendar = join_calendars(main_calendar=calendar, calendar_to_join=saved_calendar)
+    filtered_calendar = filter_calendar(calendar=joint_calendar, filter_function=filter_for_karasss)
 
     return Response(
         status_code=200,
@@ -69,18 +77,19 @@ def main() -> Response[str]:
     )
 
 
-def fetch_calendar(url: str) -> Calendar:
+def fetch_calendar(user_id: str, key: str) -> Calendar:
+    url = USOS_URL.format(user_id=user_id, key=key)
     response = requests.get(url=url)
     fetched_calendar = response.text
     return Calendar.from_ical(fetched_calendar)
 
 
 def get_saved_calendar(user_id: str) -> Calendar:
-    key = f"u{user_id}.ics"
-    path = f"/tmp/{key}"
+    s3_key = f"u{user_id}.ics"
+    path = f"/tmp/{s3_key}"
     s3_client.download_file(
-        Bucket="lectures-filter-bucket",
-        Key=key,
+        Bucket=S3_BUCKET_NAME,
+        Key=s3_key,
         Filename=path,
     )
     with open(path) as f:

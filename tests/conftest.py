@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from datetime import datetime, timedelta
+from typing import Any
 
 import pytest
 from icalendar import Event
@@ -7,20 +8,21 @@ from icalendar import Event
 TEST_DATETIME = datetime(2023, 11, 1, 0, 0, 0)
 
 
-@pytest.fixture()
-def lambda_context():
-    @dataclass
-    class LambdaContext:
-        function_name: str = "test"
-        memory_limit_in_mb: int = 128
-        invoked_function_arn: str = "arn:aws:lambda:eu-west-1:809313241:function:test"
-        aws_request_id: str = "52fdfc07-2182-154f-163f-5f0f9a621d72"
+@dataclass
+class LambdaContext:
+    function_name: str = "test"
+    memory_limit_in_mb: int = 128
+    invoked_function_arn: str = "arn:aws:lambda:eu-west-1:809313241:function:test"
+    aws_request_id: str = "52fdfc07-2182-154f-163f-5f0f9a621d72"
 
+
+@pytest.fixture()
+def lambda_context() -> LambdaContext:
     return LambdaContext()
 
 
 @pytest.fixture()
-def api_gw_event() -> dict:
+def api_gw_event() -> dict[str, Any]:
     return {
         "headers": {},
         "body": "",
