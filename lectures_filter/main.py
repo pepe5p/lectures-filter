@@ -5,7 +5,7 @@ from aws_lambda_powertools.event_handler import APIGatewayHttpResolver, Response
 from aws_lambda_powertools.utilities.typing import LambdaContext
 
 from lectures_filter.calendar_managing import filter_calendar, join_calendars
-from lectures_filter.clients.s3 import get_saved_calendar, get_user_config, UserConfigNotFoundError
+from lectures_filter.clients.s3 import s3_client_wrapper, UserCalendarRepository, UserConfigNotFoundError
 from lectures_filter.clients.usos import fetch_calendar
 
 app = APIGatewayHttpResolver()
@@ -13,8 +13,13 @@ app = APIGatewayHttpResolver()
 
 @app.get("/<usos_user_id>/calendar")
 def main(usos_user_id: str) -> Response[str]:
+    user_calendar_repository = UserCalendarRepository(
+        s3_client_wrapper=s3_client_wrapper,
+        user_id=usos_user_id,
+    )
+
     try:
-        user_config = get_user_config(user_id=usos_user_id)
+        user_config = user_calendar_repository.get_user_config()
     except UserConfigNotFoundError as e:
         return Response(
             status_code=404,
@@ -32,10 +37,9 @@ def main(usos_user_id: str) -> Response[str]:
             body=f"Failed to fetch calendar with url `{url}`: {e}",
         )
 
-    saved_calendar = get_saved_calendar(user_id=user_config.usos.user_id)
-
+    saved_calendar = user_calendar_repository.get_saved_calendar()
     joint_calendar = join_calendars(new_calendar=calendar, old_calendar=saved_calendar)
-
+    user_calendar_repository.save_calendar(calendar=joint_calendar)
     filtered_calendar = filter_calendar(
         calendar=joint_calendar,
         filter_function=user_config.filtering.should_include_event,
