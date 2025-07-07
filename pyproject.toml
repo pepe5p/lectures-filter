@@ -1,7 +1,7 @@
 [project]
 name = "lectures-filter"
 version = "0.1.0"
-description = "AWS Lambda code that fetches .ics calendar and removes all lectures from it :)."
+description = "AWS Lambda for custom USOS calendar filtering."
 authors = [{ name = "Piotr Karaś", email = "pepe500p@gmail.com" }]
 requires-python = ">=3.13"
 readme = "README.md"
@@ -73,11 +73,9 @@ ignore_unused = [
 ]
 
 [tool.flake8]
-# S101 == Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
 # W503 == line break before binary operator. Conflicts with W504 - line break after binary operator.
-# A003 == . Conflicts with W504 - line break after binary operator.
 # E203 == whitespace before ':' Conflicts with black
-ignore = ['S101', 'W503', 'A003', 'E203']
+ignore = ['W503', 'E203']
 max-line-length = 120
 
 [tool.isort]
