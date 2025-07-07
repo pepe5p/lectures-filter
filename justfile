@@ -40,11 +40,11 @@ build_install:
 
 # Update project by rerunning copier questionnaire to modify some answers
 copier_recopy answers=ANSWERS_FILE:
-    copier recopy --answers-file {{ answers }}
+    uv run copier recopy --answers-file {{ answers }}
 
 # Update project using copier with respect to the answers file
 copier_update answers=ANSWERS_FILE:
-    copier update --answers-file {{ answers }} --skip-answered
+    uv run copier update --answers-file {{ answers }} --skip-answered
 
 # Run fawltydeps lint check (deopendency issues)
 deps:
@@ -53,10 +53,6 @@ deps:
 # Run flake8 lint check (pep8 etc.)
 flake:
     uv run flake8 {{ PATHS_TO_LINT }}
-
-# Runs Grafana local stack (Loki, Tempo, Mimir)
-grafana:
-    docker run --name lgtm -p 3000:3000 -p 4317:4317 -p 4318:4318 --rm --network spoton_bridge -ti grafana/otel-lgtm
 
 # Show this help message
 @help:

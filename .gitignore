@@ -165,3 +165,5 @@ requirements.txt
 pkg.zip
 /.aws-sam/
 /package/
+
+.DS_Store
